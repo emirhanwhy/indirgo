@@ -1,27 +1,7 @@
 /*
-     FILE ARCHIVED ON 20:48:15 Ağu 15, 2015 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 20:31:07 Nis 13, 2017.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
+     DURAK BILISIM COPYRIGHT 2017 TIMEAGO SCRIPT
+	 THIS SCRIPT CREATED FOR INDIRGO.CLUB WEB SITE
 */
-/**
- * Timeago is a jQuery plugin that makes it easy to support automatically
- * updating fuzzy timestamps (e.g. "4 minutes ago" or "about 1 day ago").
- *
- * @name timeago
- * @version 1.3.0
- * @requires jQuery v1.2.3+
- * @author Ryan McGeary
- * @license MIT License - /web/20150815204815/http://www.opensource.org/licenses/mit-license.php
- *
- * For usage and examples, visit:
- * /web/20150815204815/http://timeago.yarp.com/
- *
- * Copyright (c) 2008-2013, Ryan McGeary (ryan -[at]- mcgeary [*dot*] org)
- */
-
 (function (factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
@@ -55,16 +35,16 @@
         prefixFromNow: null,
         suffixAgo: "önce",
         suffixFromNow: "from now",
-        seconds: "yaklaşık 1 dakika",
-        minute: "1 dakika",
-        minutes: "%d dakika",
-        hour: "yaklaşık 1 saat",
-        hours: "yaklaşık %d saat",
+        seconds: "1 dk",
+        minute: "1 dk",
+        minutes: "%d dk",
+        hour: "1 saat",
+        hours: "%d saat",
         day: "1 gün",
         days: "%d gün",
-        month: "yaklaşık 1 ay",
+        month: "1 ay",
         months: "%d ay",
-        year: "yaklaşık 1 yıl",
+        year: "1 yıl",
         years: "%d yıl",
         wordSeparator: " ",
         numbers: []
